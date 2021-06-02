@@ -1,6 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+import { NextApiRequest, NextApiResponse } from 'next'
 
-// TODO: 型情報記載
-export default (req, res) => {
+export default (req: NextApiRequest, res: NextApiResponse) => {
   res.status(200).json({ name: 'John Doe' })
 }

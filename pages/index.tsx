@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { VFC } from 'react'
 import styles from '../styles/Home.module.css'
 
-// TODO: 型情報記載
-export default function Home() {
+const Home: VFC = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -62,3 +62,5 @@ export default function Home() {
     </div>
   )
 }
+
+export default Home
