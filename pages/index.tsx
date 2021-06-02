@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
+// TODO: 型情報記載
 export default function Home() {
   return (
     <div className={styles.container}>
