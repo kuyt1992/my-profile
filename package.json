@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "eslint . --ext .ts,.js,.tsx,.jsx",
     "lint:fix": "eslint --fix . --ext .ts,.js,.tsx,.jsx",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "type-check": "tsc --pretty --noEmit",
+    "prepare": "husky install .husky"
   },
   "husky": {
     "hooks": {
