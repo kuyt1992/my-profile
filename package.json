@@ -12,11 +12,6 @@
     "type-check": "tsc --pretty --noEmit",
     "prepare": "husky install .husky"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "yarn lint",
