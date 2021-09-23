@@ -97,7 +97,7 @@ const Profile: VFC = () => {
       </div>
       <div className="mt-3 flex justify-around">
         <div>
-          <a href="https://twitter.com/halca1992" target="_blank" rel="noopener noreferrer">
+          <a href="https://twitter.com/hal_sea_" target="_blank" rel="noopener noreferrer">
             <svg
               className="w-6 h-6 mr-3 text-blue-500"
               stroke="currentColor"
@@ -110,7 +110,7 @@ const Profile: VFC = () => {
           </a>
         </div>
         <div>
-          <a href="https://github.com/kuyt1992" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/kyttd" target="_blank" rel="noopener noreferrer">
             <svg
               className="w-6 h-6 mr-3 text-gray-500"
               fill="currentColor"
@@ -122,7 +122,7 @@ const Profile: VFC = () => {
           </a>
         </div>
         <div>
-          <a href="https://qiita.com/halca1992" target="_blank" rel="noopener noreferrer">
+          <a href="https://qiita.com/hal_sea_" target="_blank" rel="noopener noreferrer">
             <svg
               className="w-8 h-6 mr-3 bg-green-500 text-white"
               role="img"
