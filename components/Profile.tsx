@@ -95,7 +95,8 @@ const Profile: VFC = () => {
           </svg>
         </div>
       </div>
-      <div className="mt-3 flex justify-around">
+      <p className="text-sm font-bold mt-3">Links</p>
+      <div className="mt-2 flex justify-around">
         <div>
           <a href="https://twitter.com/hal_sea_" target="_blank" rel="noopener noreferrer">
             <svg
